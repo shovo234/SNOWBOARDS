@@ -1,0 +1,49 @@
+.bg{
+    background-color: #000000;
+}
+.Navitem{
+    color: #ffffff;
+  padding: 0 10px;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 550px;
+    position: relative;
+    
+}
+.run-over{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.run-over h1{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+.run-over button{
+    position: absolute;
+    left: 70%;
+    color: #ffffff;
+    background: #000000;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 30px;
+    border: 1px solid;
+ 
+}
+.snow i{
+    font-size: 40px;
+}
+.bannertwo{
+    background: url(../images/bannertwo.png) no-repeat center;
+    background-size: cover;
+    min-height: 600px;
+}
